@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Tool-generated
+trainer_config.json
+scale_backup_mo/
+
+# Never commit game assets / extracted data
+*.lmt
+*.arc
+*.mod
+tables_out/
+
+# OS
+.DS_Store
+Thumbs.db
